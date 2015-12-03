@@ -13,6 +13,14 @@
 		];
 	};
 
+	// Ejemplo funcion.
+	var getJesi = function () {			
+		return [
+			'Omar',
+			'Lorena',
+		];
+	};
+
 	// Controlador principal.
 	function UthhController($scope, uthhService){
 		var vm = this;
@@ -20,7 +28,8 @@
 
 		// Definición de listas.
 		vm.lista = {
-			'krescruz': getRepositorios()
+			'krescruz': getRepositorios(),
+			'Jesi': getJesi()
 		};
 
 	};

@@ -8,9 +8,9 @@
     <script src="controllers.js"></script>
     <script src="services.js"></script>
 </head>
-<body>
-	<div>
-		Uthh Git & Github
+<body ng-app="uthhApp" ng-controller="UthhController as vm">
+	<div ng-repeat="item in vm.lista.krescruz">
+		{{ item }}
 	</div>
 </body>
 </html>

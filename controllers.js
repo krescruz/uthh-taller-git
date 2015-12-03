@@ -20,7 +20,7 @@
 
 		// Definición de listas.
 		vm.lista = {
-			'git': getRepositorios()
+			'krescruz': getRepositorios()
 		};
 
 	};
